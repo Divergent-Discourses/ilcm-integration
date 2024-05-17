@@ -11,15 +11,15 @@
 
 5.	Copy file from accessible folder into running Docker container using the following command, all one line:
 
-    ```docker cp path/to/model/<model>.tar.gz <docker_container_name>:/home/rstudio/<model>.tar.gz```
+    - ```docker cp path/to/model/<model>.tar.gz <docker_container_name>:/home/rstudio/<model>.tar.gz```
 
 6.	Note: ```docker_container_name``` is usually the last container listed in the docker interface. 
 
 7.	Unpack the model from within the docker environment. 
 
-  a.	Open the rStudio interface from within the iLCM
+  -	Open the rStudio interface from within the iLCM
   
-  b.	In the lower left section of the rstudio interface, change from “console” to “terminal” and input the following command, all on one line:
+  -	In the lower left section of the rstudio interface, change from “console” to “terminal” and input the following command, all on one line:
   
     ```/home/rstudio/miniconda3/bin/pip3 install /home/rstudio/<model>.tar.gz```
 
