@@ -11,7 +11,7 @@
 
 5.	Copy file from accessible folder into running Docker container using the following command, all one line:
 
-    ```docker cp path/to/model/<file>.tar.gz <docker_container_name>:/home/rstudio/<file>.tar.gz```
+    ```docker cp path/to/model/<model>.tar.gz <docker_container_name>:/home/rstudio/<model>.tar.gz```
 
 6.	Note: ```docker_container_name``` is usually the last container listed in the docker interface. 
 
