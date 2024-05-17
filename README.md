@@ -24,7 +24,5 @@
     ```/home/rstudio/miniconda3/bin/pip3 install /home/rstudio/<model>.tar.gz```
 
 8.	Ensure that the stopword list is loaded into the iLCM. Using the docker cp command, load a file like ```stopwords.txt``` into the ```rstudio/collections/blacklists``` directory, like this:
-   
-  a.	```docker cp path/to/stopwords.txt docker_container_name:/home/rstudio/collections/blacklists```
-
-9.	Select the custom stopword list in the graphical interface ```task scheduler```. 
+	    ```docker cp path/to/stopwords.txt docker_container_name:/home/rstudio/collections/blacklists```
+9. Select the custom stopword list in the graphical interface ```task scheduler```. 
