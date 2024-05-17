@@ -11,7 +11,7 @@
 
 5.	Copy file from accessible folder into running Docker container using the following command, all one line:
 
-```docker cp path/to/model/file.tar.gz docker_container_name:/home/rstudio/file.tar.gz```
+    ```docker cp path/to/model/<file>.tar.gz <docker_container_name>:/home/rstudio/<file>.tar.gz```
 
 6.	Note: ```docker_container_name``` is usually the last container listed in the docker interface. 
 
@@ -21,7 +21,7 @@
   
   b.	In the lower left section of the rstudio interface, change from “console” to “terminal” and input the following command, all on one line:
   
-    i.	```/home/rstudio/miniconda3/bin/pip3 install /home/rstudio/model.tar.gz```
+    ```/home/rstudio/miniconda3/bin/pip3 install /home/rstudio/<model>.tar.gz```
 
 8.	Ensure that the stopword list is loaded into the iLCM. Using the docker cp command, load a file like ```stopwords.txt``` into the ```rstudio/collections/blacklists``` directory, like this:
    
