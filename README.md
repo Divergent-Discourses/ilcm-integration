@@ -1,5 +1,5 @@
 # ilcm-integration
-
+the following explains how to upload a self-trained Tibetan language model can be integrated into the iLCM. 
 ## Preliminaries:
 
 1.	Download the Docker application.
