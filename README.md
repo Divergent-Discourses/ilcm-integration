@@ -19,7 +19,8 @@ the following explains how to integrate a self-trained Tibetan language model in
 
 	-	Open the rStudio interface from within the iLCM
   
-	-	In the lower left section of the rstudio interface, change from “console” to “terminal” and input the following command, all on one line: ```/home/rstudio/miniconda3/bin/pip3 install /home/rstudio/<model>.tar.gz```
+	-	In the lower left section of the rstudio interface, change from “console” to “terminal” and input the following command, all on one line: ```/home/rstudio/miniconda3/bin/pip3 install /
+<model>.tar.gz```
 
 8.	Ensure that the stopword list is loaded into the iLCM. Using the docker cp command, load a file like ```stopwords.txt``` into the ```rstudio/collections/blacklists``` directory, like this:
    
